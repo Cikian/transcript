@@ -1,0 +1,24 @@
+{
+  "name": "transcript",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node --max_old_space_size=12288 node_modules/vite/bin/vite.js build --mode production &&vue-tsc --noEmit",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "element-plus": "^2.7.7",
+    "vue": "^3.4.31"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "typescript": "^5.2.2",
+    "unplugin-auto-import": "^0.18.0",
+    "unplugin-vue-components": "^0.27.3",
+    "vite": "^5.3.4",
+    "vue-tsc": "^2.0.24"
+  }
+}
